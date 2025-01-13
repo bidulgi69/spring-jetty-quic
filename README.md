@@ -3,6 +3,7 @@
 It is designed to improve the performance of internet communication by addressing limitations in traditional protocols like TCP, especially for modern web applications.
 
 QUIC operates over UDP instead of TCP, combining transport and some application-layer capabilities, such as multiplexing and encryption, into a single protocol.
+<br><br>
 
 ## Key Features of QUIC
 
@@ -55,5 +56,5 @@ curl --http3 -k -v 'https://localhost:8443/image?name=sample.png' > out.png
 ---
 
 ## References
-https://jetty.org/docs/jetty/12/programming-guide/server/http3.html
+https://jetty.org/docs/jetty/12/programming-guide/server/http3.html<br>
 https://github.com/murphye/spring-boot-http-3-jetty

@@ -29,6 +29,8 @@ curl --version
 ```
 <img src="https://github.com/user-attachments/assets/e0328685-40f2-483e-b288-ad80bdb45130" alt="curl features"/>
 
+<br><br>
+
 - Create self-signed certificates
 ```shell
 openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 365 -nodes -subj "/CN=localhost"
@@ -49,7 +51,7 @@ Use below commands to access the server on HTTP/3 protocol.
 # hello
 curl --http3 -k -v https://localhost:8443/
 
-# download a image
+# download an image
 curl --http3 -k -v 'https://localhost:8443/image?name=sample.png' > out.png
 ```
 
